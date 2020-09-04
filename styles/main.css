@@ -1,0 +1,50 @@
+* {
+    font-family: 'Hind', sans-serif;
+}
+header {
+    text-align: center;
+    background-color: #FFEDED;
+    background-size: 100%;
+    background-position: absolute;
+    color: #7a7a7a;
+    margin: 0px auto;
+    padding: 10px 0px 20px 0px;
+}
+
+body {
+    position:absolute;
+    min-width: 1000px;
+    max-height: 700px;
+    text-align: center;
+}
+
+img {
+    position:absolute;
+    width: 20%;
+    opacity: 0.8;
+}
+
+.sides {
+    position:absolute;
+    width:500px;
+    height:500px;
+}
+
+#rightSide {
+    position:absolute;
+    left: 50%;
+    border-left: 3px solid #E6F0FF;
+}
+
+#footer {
+    bottom: 0%;
+    color: #bababa;
+    font-weight: bold;
+    position: fixed;
+}
+
+@media screen (max-width: 650);{
+    img{
+        size: 10%;
+    }
+}
